@@ -4,14 +4,17 @@ import Navigation from "./Navigation";
 import Pets from "./Pets";
 import Footer from "./Footer";
 import Player from "./Players";
+import Main from "./Main";
 
 function App() {
   return (
     <div>
-      {/* <Navigation />
-       <Pets />
-      <Footer /> */}
-      <Player />
+      <Navigation />
+      {/* <Pets /> */}
+      <Main />
+
+      <Footer />
+      {/* <Player /> */}
     </div>
   );
 }
